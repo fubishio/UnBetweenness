@@ -1,6 +1,6 @@
 # UnBetweenness
 
-This is a solver for a problem similar to the [Betweenness](https://en.wikipedia.org/wiki/Betweenness) problem. It was originally an attempt to create a solver on my own but it was too slow so I just adapted the [Glucose](http://www.labri.fr/perso/lsimon/glucose/) SAT solver.
+This is a solver for a problem similar to the [Betweenness](https://en.wikipedia.org/wiki/Betweenness) problem. It was originally an attempt to create a solver on my own but it was too slow so I reduced the problem to a [3-SAT](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem#3-satisfiability) problem and used the [Glucose](http://www.labri.fr/perso/lsimon/glucose/) SAT solver to solve it.
 
 ## Getting Started
 
