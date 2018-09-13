@@ -1,4 +1,4 @@
-# 3SatReduction
+# UnBetweenness
 
 This is a solver for a problem similar to the [Betweenness](https://en.wikipedia.org/wiki/Betweenness) problem. It was originally an attempt to create a solver on my own but it was too slow so I just adapted the [Glucose](http://www.labri.fr/perso/lsimon/glucose/) SAT solver.
 
@@ -29,7 +29,7 @@ To use:
 4. Done! validate with output_validator.py if needed
 
 ## Concepts
-Please check the writeup file in the repository for details on how the reduction was done in the PreProcessor.  
+Please check the [writeup](https://github.com/fubishio/UnBetweenness/blob/master/writeup.pdf) file in the repository for details on how the reduction was done in the PreProcessor.  
 
 ## Testing
 The testing file is formatted so that every valid input is appended after the last input. The testing.java output should look similar to the the `.in` files in the folder testingBatch. This makes it easier to just pick a desired input and copy it into a file. For examples, please check the examples folder as it shows valid inputs for the PreProcessor.java and the input_validator.py. Note that testing.java's default optimal ordering lexicographic and only supports a certain amount of characters. To increase the amount of unique "names", please add more elements to `templist` in testing.java. If actual names are necessary, then take a valid input, and replace every instance of a "name" with a name of choice. Please refer to the examples folder for reference. 
