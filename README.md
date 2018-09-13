@@ -36,4 +36,4 @@ The testing file is formatted so that every valid input is appended after the la
 
 ## Citation and Acknowledgement 
 This project uses [Glucose 4.1 SAT solver](http://www.labri.fr/perso/lsimon/glucose/) which also uses [Zlib](https://github.com/madler/zlib) to compile. Glucose is also heavily based on [minisat](http://minisat.se/).  
-Thanks to friend Holly for checking my input_validator.py and output_validator.py.
+Thanks to my friend Holly for checking my input_validator.py and output_validator.py.
